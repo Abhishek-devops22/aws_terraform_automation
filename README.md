@@ -29,7 +29,7 @@ Project Structure
 
 
 
-**Prerequisites**
+**Prerequisites** : ---
 
 • Terraform
 
@@ -37,26 +37,28 @@ Project Structure
 
 • AWS Key Pair (for SSH access)
 
-**Commands
-**
+**Commands**
 
-terraform init
 
-_terraform plan -var-file="terraform.tfvars"
-_
-terraform apply -var-file="terraform.tfvars"
+-> **terraform init**
+
+-> **terraform plan -var-file="terraform.tfvars"**
+
+-> **terraform apply -var-file="terraform.tfvars"**
 
 
 Accessing Nginx
 After applying, Terraform will output the public IP. Open it in a browser to access the Nginx default page.
 
 **Teardown**
+
 To remove all resources:
 
-terraform destroy -var-file="terraform.tfvars"
+**terraform destroy -var-file="terraform.tfvars"**
 
-**Modules
-**
+**Modules**
+
+
 • **subnet**: Defines VPC subcomponents.
 
 • **webserver**: Provisions EC2 with Docker and Nginx.
