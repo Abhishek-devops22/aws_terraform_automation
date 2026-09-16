@@ -3,6 +3,7 @@
 ****Infrastructure as Code with Terraform - AWS EC2 + Docker Nginx**
 **
 This project provisions an AWS infrastructure using Terraform. It automates the deployment of a complete network environment and launches an EC2 instance running a Dockerized Nginx server.
+
 Project Structure
 
 **lac_with_terraform/
@@ -49,6 +50,7 @@ Project Structure
 
 Accessing Nginx
 After applying, Terraform will output the public IP. Open it in a browser to access the Nginx default page.
+
 
 **Teardown**
 
