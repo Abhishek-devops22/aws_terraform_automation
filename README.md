@@ -1,4 +1,4 @@
-# aws_terraform_automation
+# AWS Terraform Automation
 
 ****Infrastructure as Code with Terraform - AWS EC2 + Docker Nginx**
 **
