@@ -1,6 +1,6 @@
 # AWS Terraform Automation
 
-****Infrastructure as Code with Terraform - AWS EC2 + Docker Nginx**
+****IaC with Terraform - AWS EC2 + Docker Nginx**
 **
 This project provisions an AWS infrastructure using Terraform. It automates the deployment of a complete network environment and launches an EC2 instance running a Dockerized Nginx server.
 
