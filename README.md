@@ -1,4 +1,4 @@
-# AWS Terraform Automation
+# AWS Terraform IaC
 
 ****IaC with Terraform - AWS EC2 + Docker Nginx**
 **
